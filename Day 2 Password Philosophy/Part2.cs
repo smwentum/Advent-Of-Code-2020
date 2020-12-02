@@ -5,9 +5,9 @@ using System.Linq;
 
 namespace Day_2_Password_Philosophy
 {
-     public class Part1
+    public class Part2
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             List<Password> passwords = new List<Password>();
             string amount;
@@ -25,8 +25,8 @@ namespace Day_2_Password_Philosophy
                     maxLength = int.Parse(amount.Split('-')[1]),
                     requriedLetter = charIwant[0],
                     password = password
-                }) ;
-                
+                });
+
             }
 
             count = passwords.Count(m => isValidPassword(m));
@@ -37,15 +37,19 @@ namespace Day_2_Password_Philosophy
 
         private static bool isValidPassword(Password m)
         {
-            int count = 0;
-            for (int i = 0; i < m.password.Length; i++)
+            if (m.password[m.minLength - 1] == m.requriedLetter
+                    && m.password[m.maxLength- 1] != m.requriedLetter)
             {
-                if (m.password[i] == m.requriedLetter)
-                {
-                    count++;
-                }
+                return true; 
             }
-            return m.minLength <= count && m.maxLength >= count;
+
+            if (m.password[m.minLength - 1] != m.requriedLetter
+                  && m.password[m.maxLength - 1] == m.requriedLetter)
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }
