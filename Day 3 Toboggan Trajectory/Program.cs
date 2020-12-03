@@ -13,28 +13,30 @@ namespace Day_3_Toboggan_Trajectory
 
             List<string> field = new List<string>();
 
+
+            //part 1
+
+            field = expandFieldFactor(File.ReadAllLines(path).ToList(), 3, 1);
+            Console.WriteLine( computeAns(field, 3, 1));
+
+            //part 2
             long ans = 1; 
             
             field = expandFieldFactor(File.ReadAllLines(path).ToList(), 7, 1);
-            Console.WriteLine(computeAns(field,1,1));
             ans *= computeAns(field, 1, 1);
 
             field = expandFieldFactor(File.ReadAllLines(path).ToList(), 3, 1);
-            Console.WriteLine(computeAns(field,3,1));
             ans *= computeAns(field,3,1);
 
             field = expandFieldFactor(File.ReadAllLines(path).ToList(), 5, 1);
-            Console.WriteLine(computeAns(field, 5, 1));
             ans *= computeAns(field,5,1);
 
 
             field = expandFieldFactor(File.ReadAllLines(path).ToList(), 7, 1);
-            Console.WriteLine(computeAns(field, 7, 1));
             ans *= computeAns(field,7,1);
 
 
-            field = expandFieldFactor(File.ReadAllLines(path).ToList(), 7, 2);
-            Console.WriteLine(computeAns(field,1, 2));
+            field = expandFieldFactor(File.ReadAllLines(path).ToList(), 1, 2);
             ans *= computeAns(field,1,2);
 
 
