@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 1 Report Repair", "Day 1 Report Repair\Day 1 Report Repair.csproj", "{D85FA381-DDBA-42D9-9171-21AB4C7E9E83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 2 Password Philosophy", "Day 2 Password Philosophy\Day 2 Password Philosophy.csproj", "{5314D2E0-4531-4760-ABE8-54FF128A988C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 2 Password Philosophy", "Day 2 Password Philosophy\Day 2 Password Philosophy.csproj", "{5314D2E0-4531-4760-ABE8-54FF128A988C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 3 Toboggan Trajectory", "Day 3 Toboggan Trajectory\Day 3 Toboggan Trajectory.csproj", "{20BBA071-0928-47D6-9F2E-41E799334496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{5314D2E0-4531-4760-ABE8-54FF128A988C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5314D2E0-4531-4760-ABE8-54FF128A988C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5314D2E0-4531-4760-ABE8-54FF128A988C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20BBA071-0928-47D6-9F2E-41E799334496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20BBA071-0928-47D6-9F2E-41E799334496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20BBA071-0928-47D6-9F2E-41E799334496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20BBA071-0928-47D6-9F2E-41E799334496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
