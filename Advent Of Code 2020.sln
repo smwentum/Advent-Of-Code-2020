@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 2 Password Philosophy",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 3 Toboggan Trajectory", "Day 3 Toboggan Trajectory\Day 3 Toboggan Trajectory.csproj", "{20BBA071-0928-47D6-9F2E-41E799334496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 4 Passport Processing", "Day 4 Passport Processing\Day 4 Passport Processing.csproj", "{EF55DB8F-C58E-419A-902F-F728DB4DEB33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 4 Passport Processing", "Day 4 Passport Processing\Day 4 Passport Processing.csproj", "{EF55DB8F-C58E-419A-902F-F728DB4DEB33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 5 Binary Boarding", "Day 5 Binary Boarding\Day 5 Binary Boarding.csproj", "{DD0BBCB9-F5A6-4B02-A84E-E51669DA5E1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{EF55DB8F-C58E-419A-902F-F728DB4DEB33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF55DB8F-C58E-419A-902F-F728DB4DEB33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF55DB8F-C58E-419A-902F-F728DB4DEB33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD0BBCB9-F5A6-4B02-A84E-E51669DA5E1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD0BBCB9-F5A6-4B02-A84E-E51669DA5E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD0BBCB9-F5A6-4B02-A84E-E51669DA5E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD0BBCB9-F5A6-4B02-A84E-E51669DA5E1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
